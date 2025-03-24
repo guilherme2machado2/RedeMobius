@@ -26,6 +26,6 @@ Bem vindo ao Projeto Rede Mobius
 <li>Planos de saúde: Cadastro e gerenciamento de planos.</li>
 <li>Loja de medicamentos: Sistema de compra.</li>
 <li>Hospedagem: Agendamento de estadias.</li>
+<br>
 
-
-<a href= "https://miro.com/app/board/uXjVKhs2eZg=/">link<h2>Estrutura do Diatgrama de Entidades!</h2></a>
+<h2><a href= "https://miro.com/app/board/uXjVKhs2eZg=/">Estrutura do Diatgrama de Entidades</a></h2>
