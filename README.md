@@ -28,4 +28,4 @@ Bem vindo ao Projeto Rede Mobius
 <li>Hospedagem: Agendamento de estadias.</li>
 <br>
 
-<h2><a href= "https://miro.com/app/board/uXjVKhs2eZg=/">Estrutura do Diatgrama de Entidades</a></h2>
+<h2><a href= "https://miro.com/app/board/uXjVKhs2eZg=/">Estrutura do Diagrama de Entidades</a></h2>
