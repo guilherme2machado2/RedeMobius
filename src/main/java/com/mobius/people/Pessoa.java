@@ -6,27 +6,23 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
+@Getter
 public class Pessoa {
 
-    @Getter
     @Setter
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int CPF;
 
-    @Getter
     @Setter
     private String Nome;
 
-    @Getter
     @Setter
     private int Telefone;
 
-    @Getter
     @Setter
     private String Email;
 
-    @Getter
     @Setter
     private String Endereco;
 

@@ -20,8 +20,4 @@ public class clinicaVeterinaria {
     private String endereco;
     private String telefone;
 
-    @OneToMany(mappedBy = "clinica")
-    private List<Funcionario> funcionarios;
-
-    // Getters e Setters
 }

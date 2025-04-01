@@ -6,7 +6,7 @@ public class bancoHorasFuncionarios extends Funcionario {
     private final Funcionario funcionario;
     private double HORAS_APONTADAS;
     private double HORAS_EXTRAS_APONTADAS;
-    private static final double VALOR_HORA_EXTRA = 15.80;
+    private static final double VALOR_HORA_EXTRA = 0;
     private static final int LIMITE_HORAS_EXTRAS_MENSAL = 45;
     private static final int LIMITE_HORAS_EXTRAS_DIARIAS = 3;
 
@@ -25,7 +25,7 @@ public class bancoHorasFuncionarios extends Funcionario {
     }
 
     public double calcularSalarioTotal() {
-        double salarioTotal = funcionario.getSalarioBase() + (HORAS_EXTRAS_APONTADAS * VALOR_HORA_EXTRA);
+        double salarioTotal = (funcionario.getSalarioBase() * HORAS_APONTADAS ) + (HORAS_EXTRAS_APONTADAS * VALOR_HORA_EXTRA);
         return salarioTotal;
     }
 
