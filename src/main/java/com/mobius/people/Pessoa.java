@@ -7,23 +7,19 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
+@Setter
 public class Pessoa {
 
-    @Setter
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int CPF;
 
-    @Setter
     private String Nome;
 
-    @Setter
     private int Telefone;
 
-    @Setter
     private String Email;
 
-    @Setter
     private String Endereco;
 
     public static String formatarCPF(String cpfNumeros) {
