@@ -1,4 +1,4 @@
-package com.mobius.controle;
+package com.mobius.administracao;
 
 import com.mobius.people.Funcionario;
 

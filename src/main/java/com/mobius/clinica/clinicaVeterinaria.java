@@ -3,21 +3,33 @@ package com.mobius.clinica;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
-import jakarta.persistence.OneToMany;
-import java.util.List;
+import lombok.Getter;
+import lombok.Setter;
 
-@Entity
-@Table(name = "clinicas_veterinarias")
+
 public class clinicaVeterinaria {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Getter
+    @Setter
+    private Long Id;
 
-    private String nome;
-    private String endereco;
-    private String telefone;
+    @Getter
+    @Setter
+    public String Endereco;
+
+    @Getter
+    @Setter
+    public String Telefone;
+
+    @Getter
+    @Setter
+    private String responsavelClinica;
+
+} interface responsavelPelaClinica {
 
 }
+
+
+

@@ -35,10 +35,6 @@ public class pet {
 
     @Getter
     @Setter
-    private String Endereco;
-
-    @Getter
-    @Setter
     public String Porte;
 
 
